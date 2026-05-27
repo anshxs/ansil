@@ -70,7 +70,7 @@
                             <!-- /Logo -->
                             <h4 class="mb-1">Welcome to GCET Jammu! 👋</h4>
                             <p class="mb-6">Sign-in to your account here</p>
-                            <form id="formAuthentication" class="mb-4" action="login.html" method="POST">
+                            <form id="formAuthentication" class="mb-4" action="javascript:void(0);" method="POST">
                                 <input type="hidden" name="_token" value="XQz1n1KSX5VnkDrY3JzDafYb92XDNaLZWOf2y2TH" autocomplete="off">
                                 <div class="mb-6">
                                     <label for="email" class="form-label">Email</label>
@@ -86,6 +86,7 @@
                                     </div>
                                 </div>
                                 <div class="my-8">
+                                    
                                     <div class="d-flex justify-content-between">
                                         <div class="form-check mb-0 ms-2">
                                             <input class="form-check-input" type="checkbox" id="remember_me" name="remember">
@@ -98,7 +99,7 @@
                                     </div>
                                 </div>
                                 <div class="mb-6">
-                                    <button class="btn btn-primary d-grid w-100" type="submit">Login</button>
+                                    <button class="btn btn-primary d-grid w-100" type="button" id="loginBtn">Login</button>
                                 </div>
                             </form>
                             <p class="text-center">
@@ -156,8 +157,11 @@
                     return;
                 }
 
-                form.addEventListener("submit", function (event) {
-                    event.preventDefault();
+                function handleLogin(event) {
+                    if (event) {
+                        event.preventDefault();
+                    }
+
                     var emailInput = document.getElementById("email");
                     var passwordInput = document.getElementById("password");
                     var email = emailInput ? emailInput.value.trim() : "";
@@ -171,7 +175,12 @@
 
                     localStorage.setItem("isLoggedIn", "true");
                     window.location.href = "home.html";
-                });
+                }
+
+                var loginBtn = document.getElementById("loginBtn");
+                if (loginBtn) {
+                    loginBtn.addEventListener("click", handleLogin);
+                }
             });
         </script>
         <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"46f8b1f778fc4340b65a81c1410a2e28","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
