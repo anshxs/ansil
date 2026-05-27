@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+
+<html lang="en"
+    class="light-style layout-compact layout-navbar-fixed layout-menu-fixed   "
+    data-theme="theme-default"
+    data-assets-path="https://coe.gcetj.ac.in/assets/" data-base-url="https://coe.gcetj.ac.in"
+    data-template="vertical-menu-theme-default-light"
+    data-style="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Dashboard | GCET Jammu
+    </title>
+    <meta name="description"
+        content="GCET Student Examination Portal" />
+    <meta name="keywords"
+        content="GCET, Government College of Engineering &amp; Technology, Student, Examination, Result, Exam Form, Admission, Registration">
+    <meta name="csrf-token" content="yJYXYW9Ezclb4z35HSiakCb06Eqoe0zZUKmYl42M">
+    
+
+    <link rel="icon" type="image/x-icon" href="https://coe.gcetj.ac.in/assets/img/favicon/favicon.ico" />
+    <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+
+<link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/tabler-icons-Cw6d9diP.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/fontawesome-xJ33QM-p.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/flag-icons-B2r7fxKT.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/node-waves-D5r9FyLK.css" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/tabler-icons-Cw6d9diP.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/fontawesome-xJ33QM-p.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/flag-icons-B2r7fxKT.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/node-waves-D5r9FyLK.css" data-navigate-track="reload" />
+<!-- Core CSS -->
+<link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/core-Be7SmMeJ.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/theme-default-DX3MT3DK.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/demo-BAXq4XAA.css" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/core-Be7SmMeJ.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/theme-default-DX3MT3DK.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/demo-BAXq4XAA.css" data-navigate-track="reload" />
+<link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/perfect-scrollbar-BzIm-TRA.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/typeahead-RTKdwVJ-.css" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/perfect-scrollbar-BzIm-TRA.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/typeahead-RTKdwVJ-.css" data-navigate-track="reload" />    <link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/datatables-BRNjXTDz.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/responsive-nt6KEQp3.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/buttons-ir1CTLmQ.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/apex-charts-Cfi2tkvO.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/toastr-CRqTeSpx.css" /><link rel="preload" as="style" href="https://coe.gcetj.ac.in/build/assets/animate-f5D-jMdx.css" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/datatables-BRNjXTDz.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/responsive-nt6KEQp3.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/buttons-ir1CTLmQ.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/apex-charts-Cfi2tkvO.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/toastr-CRqTeSpx.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://coe.gcetj.ac.in/build/assets/animate-f5D-jMdx.css" data-navigate-track="reload" />
+<!-- Page Styles -->
+    <!-- laravel style -->
+<link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/helpers-BhdisPvE.js" /><script type="module" src="https://coe.gcetj.ac.in/build/assets/helpers-BhdisPvE.js" data-navigate-track="reload"></script><!-- beautify ignore:start -->
+  <link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/config-BaomiNYB.js" /><script type="module" src="https://coe.gcetj.ac.in/build/assets/config-BaomiNYB.js" data-navigate-track="reload"></script>
+</head>
+
+<body>
+    <div class="layout-wrapper layout-navbar-full layout-horizontal layout-without-menu">
+  <div class="layout-container">
+
+    <!-- BEGIN: Navbar-->
+    <!-- Navbar -->
+    <nav class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
+        <div class="container-xxl">
+
+<!--  Brand demo (display only for navbar-full and hide on below xl) -->
+    <div class="navbar-brand app-brand demo d-none d-xl-flex py-0 me-4">
+        <a href="home.html" class="app-brand-link">
+            <span class="app-brand-logo demo"><svg width="32" height="20" version="1.0" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 278">
+    <g fill="#610371">
+      <path d="M144.5 1.9c-1.6.5-5.2.9-7.9 1-2.7 0-6.3.5-8 1-1.7.5-6 1.7-9.6 2.7-8 2-24.3 8.6-33 13.2-3.6 1.9-9 4.8-12 6.5-10.4 5.5-33.6 27.5-41.5 39.2-18.9 28.2-27.8 55.6-26.9 83.3.3 7.8.8 9.2 3.4 9.2 1.9 0 2-.6 2-9.3.1-20.8 4.9-42.1 13.1-58.7C32.4 73.2 47.9 51.7 54 48.5c1.4-.7 4.3-3.1 6.5-5.2 10.1-9.8 28.4-21.5 38-24.3 2.2-.6 5.4-1.7 7-2.5 4.4-1.9 9.9-3.5 12.1-3.5 1.1 0 2.8-.6 3.9-1.3 2.9-2 11.3-3.5 25.9-4.8 17.7-1.5 37.6-.4 52.1 3 6.7 1.6 29.5 9.8 33.7 12.1 1 .6 2.5 1 3.3 1 1.7 0 7.9 3.2 13.8 7.2 6.4 4.2 26.1 20.2 30.6 24.8 3.9 4 12.2 15.5 17.5 24.4 1 1.7 3.6 5.8 5.7 9.1 4.4 6.9 6.3 11.3 8.3 18.7.8 2.9 2.4 8.6 3.6 12.6 2.5 8.8 4 26.3 3.3 37.2-.6 8 .3 11 3.2 11 2.7 0 3.7-5.6 3.1-16.7-1.4-23.4-5.5-41.3-12.7-55.5-1.6-3.2-2.9-6.2-2.9-6.7 0-1.5-9.8-16.9-15.9-25-3.1-4.1-6.3-8.3-7.1-9.4-1.4-2-7.6-8-15.5-15.1-2.2-2-7-5.6-10.7-8.1-10.2-7-45.6-23.5-50.3-23.5-.8 0-4.1-.9-7.3-1.9C194 3 151.5 0 144.5 1.9z"/>
+      <path d="M149.7 12.8c-1 1-1.7 3-1.7 4.5 0 3.3-1.8 4.3-9.5 5.1-3.3.4-7 1-8.2 1.3-1.7.4-3.1-.4-5.6-3.2-2.7-2.9-4-3.7-5.8-3.2-2.8.6-10.5 3.3-13.4 4.7-1.1.5-3.4 1.2-5.2 1.5-3.7.7-4.8 3-3.9 8.1.7 3.3.6 3.4-7.9 8.9L79.9 46l-4.1-2c-4.9-2.4-6.6-2.4-9.3-.5C62.8 46.3 52 57.4 52 58.4c0 .6 1 2.9 2.2 5.2l2.1 4.1-3 3.9c-1.7 2.1-4.3 5.9-6 8.4-2.3 3.6-3.4 4.4-5.4 4.2-7.2-.9-8.3-.7-9.6 1.8-3.4 6.8-6.2 13.9-6.8 17.3-.6 3.3-.4 4 1.9 5.8 3.1 2.5 3.4 6.4 1 15.3-1.8 6.6-3.5 8.6-7 8.6-4.1 0-5.4 3.5-5.4 14 0 5.2.4 10 .8 10.7.4.6 2.5 1.3 4.6 1.5 2.2.2 4.2 1 4.6 1.8.8 1.6 2.5 9.2 3.9 17 .4 2.5 1.7 6.7 2.9 9.4s2.2 5.4 2.2 6.1c0 .7 1.1 2.9 2.5 4.9 1.4 2 2.5 4.5 2.5 5.5 0 4.5 15.2 25.8 27.5 38.5 4.1 4.2 7.5 8.1 7.5 8.6s-1.5 1-3.2 1.2c-6.2.6-2.8 2.3 5.4 2.8 4.6.3 9.6 1.3 11.3 2.1 27.3 14.4 44.7 19.1 76 20.5 21.3 1 43.8-2.6 61-9.6 6.3-2.6 7.1-2.9 9.2-3.5 1.2-.3 3.8-1.7 5.9-3.1 3.3-2.3 4.5-2.5 11.7-2.2 5.5.2 8.1-.1 8.4-.9.2-.7-.7-1.3-2.3-1.5-1.5-.2-2.9-.8-3.1-1.4-.2-.6 3.1-4.4 7.3-8.5 11.4-10.9 13-12.7 18.9-21 5.9-8.4 10.8-17.6 13.7-25.9 2.4-6.9 6.8-23.7 6.8-26.1 0-2.8 2.8-4.9 6.5-4.9 1.9 0 3.6-.4 4-.9 1-1.7 1.6-14.4.9-19.4-.6-4.4-1-5-4.3-6.4-4.3-1.8-5.2-3.1-6.9-10.3-2.7-11.2-2.6-12.2.8-16 2.9-3.2 3.1-3.9 2.5-8.5-.4-2.7-2.1-7.9-3.8-11.5l-3.2-6.5-5.6.3-5.6.3-1.8-3.8c-1-2.1-2.1-4-2.5-4.3-2-1.6-6-8-6-9.7 0-1.1.9-2.8 2-3.8s2-2.6 2-3.5c0-1.7-13.5-15.9-17.8-18.8-2.1-1.4-2.5-1.3-5.2.7-4 2.9-6.5 2.7-11.9-1.3-2.5-1.8-5.6-3.7-6.9-4-3-1-4.6-4-3.2-6.5 2.6-4.9.7-7.3-8.5-10.6-17.8-6.3-15.3-6.3-22.6-.4-2.4 1.9-3 2-6.5.9-2.2-.7-5.2-1.5-6.9-1.6-7.6-.9-11.5-3.1-11.5-6.6 0-1-.9-2.7-2-3.8-1.8-1.8-3.3-2-14.3-2-10.7 0-12.6.2-14 1.8zM178.9 26c3.1.6 8.1 1.4 11.1 1.9s10 2.4 15.5 4.1c5.5 1.7 11.4 3.5 13 3.8 1.7.4 8.9 4.6 16 9.3 7.2 4.7 14 9.1 15.2 9.8 2.8 1.4 19.8 18.9 25 25.6 8.2 10.7 17.4 29 18.7 37.5.3 1.9 1.3 6.6 2.2 10.5 1.9 8.3 2.7 32.5 1.2 38.1-.5 2.2-1.8 8.2-2.8 13.4-2.5 13.4-6.7 25.2-12 33.5-1.4 2.2-2.9 5-3.5 6.3-.5 1.2-2.3 3.9-4 6-4.5 5.6-21.7 22.3-24 23.3-1.1.5-2.8 1.4-3.7 2.1-1.4 1-2.1.8-4.1-1-1.3-1.3-3.6-2.2-5.3-2.2-5.8 0-6.7-1.6-6.5-12.1l.1-9.4 4.3-3.5c6.3-5.2 14.7-14.2 14.7-15.7 0-2.5-5-3.3-20-3.3h-14.9l-1-3.8c-1.9-6.8-2.3-7-16.1-7.5-6.9-.3-13.5-.9-14.7-1.3-4.2-1.2-6.9 1.8-8.2 8.9-1.3 7.6-.6 12.1 2.5 16.3l2.3 3.1 12.4.2c9.3.2 12.6-.1 13.5-1.1 1.2-1.5 1-15.6-.3-19.6-.8-2.5 1.5-3.2 3.3-.9 1.2 1.4 1.8 22.9.8 24.6-.5.7-5.8 1.1-14.8 1.1-13 0-14 .1-14.5 1.9-.4 1.6-1.3 2-4.5 1.8-2.2-.1-3.5-.3-2.9-.5 1.6-.5 1.3-2.8-.5-4.3-1.4-1.1-1.6-3.4-1.2-15.5.3-13.3.5-14.5 2.8-17.6 1.6-2.1 2.6-4.9 2.8-7.8.2-3.7.6-9.2 1.1-15.3.2-1.4 3-.7 3.9.9.5.9.7 3.6.4 6-.3 3.4 0 4.9 1.8 7.1 2.6 3.3 5.7 5.2 8.6 5.3 3.8 0 5.2-2.9 5.9-12.5.7-8.9.7-9.1-2-12.4-1.6-1.8-3.9-3.7-5.2-4.2-3-1.1-3.9-3.4-2.3-6.3.7-1.3.9-3.3.5-4.5-.9-2.9-3.5-2.7-3.5.4 0 3-3.8 5.2-10 5.7-4 .3-4.5.1-4.8-2-.2-1.2-1-2.2-1.8-2.2-1.1 0-1.3 1.1-1 5.1.4 5.7 1 6.7 3 5 4.1-3.4 14.7-3.1 18.4.6 5.1 5 7 13.5 3.7 16.3-.8.7-1.5 2.5-1.5 4.1 0 3.4-1.9 3.8-4.5.9-1.7-1.9-1.7-6.4 0-11.7.6-1.9.2-2.5-2.1-3.3-1.5-.6-3.3-1.8-4-2.8-1-1.4-1.5-1.5-2.5-.4-.7.6-2 1.2-2.9 1.2-.9 0-2.5.6-3.5 1.4-1.8 1.3-1.8 1.5-.2 3.9 3.8 5.9.2 11.4-6.7 10.1-1.9-.3-4.3-.1-5.4.5-2.9 1.6-5.1.4-6.7-3.6-.8-2-1.5-3.6-1.5-3.7 0 0 2.9-.1 6.4-.2 6.1 0 9.6-1.4 9.6-3.6 0-.5-1.5-.8-3.2-.6-3.2.3-3.3.2-4.1-4.7-.4-2.8-.9-7.9-1-11.5-.2-5-.5-6.5-1.7-6.5-.9 0-1.7 1.4-2.1 3.5-1.2 6.4-3.9 11.5-8.5 15.6-4.5 4-4.6 4-3.9 8.8.4 2.7 1.6 5.7 2.5 6.6 1.2 1.2 1.7 3.2 1.6 6.6l-.2 4.9-4.5-.1c-6.1-.2-14-4.1-15.7-7.7-1.6-3.3-4.5-3.3-5 .1-.3 1.6-1 2.2-2.8 2.2-2.3 0-2.4-.2-2.4-7.5 0-7.4 1.3-10 2.6-5 .4 1.6 1.3 2.5 2.6 2.5 1.7 0 1.9-.4 1.3-2.2-.4-1.3-1-4.7-1.4-7.6-.9-6.6 0-8.6 7.8-16.7 10.2-10.6 12.7-16.7 11.8-28.6-.7-8.2 0-9.9 3.9-9.9 3.3 0 5.4 1 5.4 2.6 0 .8.6 2.3 1.2 3.4 1 1.5 1 2.6 0 5.2-.8 2.1-.8 3.6-.2 4.2.6.6 1 2.9 1 5.1 0 6 3.7 9.2 12.6 11.1 3.8.8 7.6 1.1 8.4.8.8-.4 4-.8 7-1.1 3-.2 8.2-1.1 11.4-1.9 7.7-2 10.6-1.3 10.6 2.6 0 3.4-1 4.2-6.9 5.5-5.5 1.2-6.7 3.5-1.9 3.5 1.9 0 3.9-.5 4.5-1.1.5-.5 3.4-1 6.4-1 3 0 8-.8 11.2-1.7 4.6-1.3 5.9-2.2 6.4-4.1.5-1.9-.1-3-2.6-5-3.8-3.1-3.8-3.7-.6-4.5 1.4-.4 3.2-1.8 4.1-3.2 1.9-2.8 7-5.8 8.4-4.9.6.3 1 3.5 1 7 0 4.6.5 6.8 1.6 8 1.6 1.5 1.6 2.6 0 14.9-.9 7.2-1.6 16.5-1.6 20.7 0 4.1-.5 8-1.1 8.6-1.6 1.6-.7 7.7 1.3 8.1 1.2.2 2-.8 2.8-3.7 1.1-4.2 5.9-10.1 8.2-10.1.7 0 2.4 1.6 3.8 3.6 2.2 3 7.5 6.4 10.1 6.4 1.5 0 1-4.8-1.7-18-3.1-15.1-4.5-24-4.7-30-.2-4.1 0-4.5 2.2-4.8 3.9-.6 7.1-3.2 7.1-5.7 0-1.3-1.1-3.7-2.5-5.3-1.4-1.7-2.5-3.4-2.5-4 0-.5-2-3.2-4.4-5.9-2.5-2.7-4.8-6.5-5.3-8.4-1.1-4.2-3.9-5-5.3-1.5-1.5 4.1-3 3-2.9-2.2.1-3.1-.5-5.9-1.6-7.5-2.2-3.4-1.4-6.2 1.4-4.7 1.1.5 2.9 1 4 1 4.1 0 1.8-3.3-3.2-4.5-1.9-.5-2.9-1.6-3.5-3.9-.6-2.3-2.4-4.2-7.2-7.5-3.6-2.3-8.5-5.7-11-7.5-11.8-8.3-42.8-16.8-47.8-13-.9.7-3.8 1.4-6.4 1.4-2.6 0-5.8.4-7.2 1-1.4.5-6.7 1-11.7 1.2-5 .1-9.3.6-9.5 1-.3.5.5 1.7 1.8 2.7 1.3 1.1 2 2.3 1.6 2.7-.4.3-4.4.8-8.9 1-8.7.4-9.5.6-8.4 2.4.5.9 12.1.7 19.9-.4.6 0 1.1.6 1.3 1.5.3 1.2-.5 1.8-2.9 2.2-1.8.3-5.8 1.3-8.8 2.2-5.5 1.7-8.6 2.3-23.7 4.7-5.2.7-8.3 1.7-8.3 2.4 0 1.9 3.4 2.6 6.5 1.4 4.1-1.6 5.8.5 2.6 3.1-1.9 1.6-3.9 1.9-11.7 1.9-7.1 0-9.4.3-9.4 1.3 0 .8-1.1 2.4-2.5 3.7-1.4 1.3-2.5 2.7-2.5 3.2 0 1.1 8.8 1 13.3-.3 4.6-1.3 7.7-.4 7.7 2.2 0 2 1.5 2.6 2.5.9.3-.6 1.3-1 2.1-1 1.8 0 1.9 5 .1 7.4-1.2 1.7-2 1.7-10 .7-8.7-1.2-12-.9-16.6 1.5-1.4.8-3.3 1.4-4.3 1.4-2.4 0-6.3 5.1-8.2 11-3.4 10.3-4 14.8-4 30 0 13.7.3 16.4 2.5 23.5 1.3 4.4 3.7 9.9 5.2 12.2 1.5 2.4 2.7 4.7 2.7 5.3 0 1.1 10.2 1.4 11.3.3.4-.3.2-1.2-.4-2-1.8-2.1.3-1.5 2.9.9 2.3 2.2 3.1 2.3 19.5 2.3 12.9 0 17.6-.3 18.9-1.4 1.4-1.1 2.5-.9 7.2 1.3 4.4 2.1 7 2.6 12.9 2.6 4.8 0 7.8-.4 8.5-1.3 1.5-1.8 9-.9 10.1 1.2.4.9.9 6.7.9 12.8.1 9.9-.1 11.3-1.5 11.3-.9 0-2.7-1-4-2.2-3.4-3.2-3.3-11.5.2-14.8 5-4.7 1.4-5.6-4.8-1.3l-3.9 2.7-12.5-1.3c-9.8-.9-13.1-1.7-15.3-3.3-1.6-1.1-3.3-1.7-3.9-1.4-1.7 1.1-1.3 2.4.9 3.1 5.1 1.6.2 6-5.5 4.9-4.1-.7-4.4-1.7-1-3.2 1.4-.6 2.5-1.8 2.5-2.7 0-1.2-1.2-1.5-5.4-1.5-3 0-6.5.4-7.8.9-1.3.5-4.3 1.1-6.8 1.5-2.5.3-5.9 1.1-7.6 1.6-1.7.6-4.1.9-5.4.8-5.6-.7-3 2.9 12 16.7 7.4 6.8 14.2 11.9 18.3 13.7 1.5.7 2.7 1.6 2.7 2 0 .4 1.1.8 2.4.8 1.4 0 2.8.4 3.1 1 1.2 2 10.6 5.4 19.1 7 2.7.5 7.7 1.5 11.2 2.3 3.4.8 6.2 1.3 6.2 1 0-.2.9.1 2 .7 2.4 1.3 2.6 3.3.3 5.5-1.4 1.5-3 1.6-11.3 1-5.4-.4-15.5-.7-22.6-.7-7.1-.1-14.2-.4-15.8-.9-1.6-.5-3.6-.4-4.6.1-1.4.8-7.8.2-17.5-1.6-4.6-.8-21.9-16-27.3-23.9-1.5-2.2-4.8-7-7.4-10.6-2.7-3.7-4.8-7.3-4.8-8.1 0-.8 1.9-1.9 4.6-2.6 2.5-.7 6.2-2.4 8.2-3.7 2-1.4 4.2-2.5 4.8-2.5 1.8 0 2.6-3.1 1.3-4.6-1.7-2.1-3.7-1.7-4.1.8-.2 1.9-.8 2.3-3.6 2-2.6-.2-3.4.2-4.1 2.2-1.2 3.1-8.8 4.4-10.8 1.8-1.8-2.5-1.6-6.2.4-6.2.9 0 2.4-.6 3.2-1.3.9-.7 4.2-2.1 7.5-3.2 5.3-1.7 7.7-3.7 6.3-5.1-.3-.3-3.6.5-7.4 1.9-3.7 1.3-8.5 2.7-10.6 3-3.8.6-3.9.5-5.8-3.8-2.9-6.6-5.6-19.7-6.5-32-.3-4.3-.8-8.3-1.1-8.8-.9-1.4 1.8-19 4.3-28.2 3.1-11 8.1-24.1 10.6-27.5C68.7 62 77.6 53.1 94 44.3c3-1.6 8.5-4.6 12.2-6.6 3.7-2.1 7.3-3.7 8-3.7.7 0 2.4-.6 3.8-1.3 2.8-1.4 9.6-3 21-4.8 4.1-.6 8.9-1.5 10.5-1.9 4.4-1.2 23-1.2 29.4 0zm-7.6 38.4c2.1 1.6 2.3 3 .3 2.3-.8-.3-2 .1-2.6.9-1.7 2-2.8 1.8-3.5-.7-1.1-3.5 2.5-5 5.8-2.5zm-8.5 4.3c.2.8-.6 1.3-2.2 1.3-1.7 0-2.6-.5-2.6-1.6 0-1.9 4.1-1.6 4.8.3zm21.7-.7c.3.5 1.9 1 3.5 1 3.8 0 6 .9 6 2.6 0 2.3-9.2 1.8-12.4-.7-1.4-1.1-2.6-2.5-2.6-3 0-1.2 4.7-1.2 5.5.1zm-13.7 5.3c.3 1.2-.4 1.7-2.2 1.7-2.7 0-3.7-2.4-1.3-3.3 1.9-.8 3.2-.2 3.5 1.6zM148 73c0 .6-.6 1.3-1.4 1.6-.8.3-1.6 1.4-1.9 2.5-.5 1.8-.9 1.9-2.7.9-1.6-.8-2.5-.9-3.3-.1-1 1-1 1.1 3.3 2.4 1.2.4 1 .6-.5 1.1-1.1.4-3.3 1.3-5 2-5.4 2.3-10.6 3.8-11.3 3.1-1.5-1.5 1.7-4 5.7-4.3 4-.3 5.9-2.2 2.2-2.2-2.6 0-5.1-1-5.1-2.1 0-.5 1.2-.9 2.8-.9 1.5-.1 3.8-.7 5.2-1.5 1.4-.8 3.7-1.4 5.2-1.5 1.5 0 3-.5 3.3-1 .8-1.3 3.5-1.3 3.5 0zm67.5 0c.7 1.2-1.2 5-2.5 5-1.6 0-5.1-4-4.5-5 .8-1.3 6.2-1.3 7 0zm-26 5c.4.6 1.1.7 1.7.4.5-.4 2.1-.1 3.4.6 2 1.1 2.7 1.1 4.4-.5 2-1.8 2.3-1.8 4.8-.3 3.9 2.4 4 4.7.3 5.4-1.6.4-3.2 1.2-3.5 2-.8 2.2 3.6 1.7 10-1.1 3.1-1.4 6.9-2.5 8.4-2.5 3 0 9 2.9 9 4.4 0 .8-3.2 4.8-10.1 12.5-2 2.2-2.5 2.3-10.4 1.7-7.6-.6-8.6-.5-10.4 1.3-2.4 2.4-1.8 4.3 4.3 13.3l3.8 5.7-2.1 4.4c-1.1 2.4-2.1 5.2-2.1 6.3 0 3.1-2 4.4-6.8 4.4-2.4 0-5.3.5-6.5 1.2-2.7 1.4-12.4 2.9-14.3 2.1-.8-.3-1.4-1.1-1.4-1.8 0-2.1 2.9-4.5 4.5-3.9.8.4 1.8-.1 2.1-1 .5-1.3 2.4-1.6 11.1-1.6 10.7 0 12.1-.7 6-3.3-6.6-2.8-10.5-3.7-16.9-3.7-6 0-6.7-.2-8.3-2.6-1-1.5-2.1-6-2.5-10.3-.5-4.2-1.3-9.5-1.8-11.9-1.2-5.3-.4-13.8 1.1-12.3 1.8 1.8 2.7 1.3 3.8-1.8 1-2.8 7.7-6.9 9.6-5.8.4.3 2.2-.1 3.8-.8 3.8-1.7 4.2-1.7 5-.5zm-19 1c.3.5-.1 1-1 1s-1.3-.5-1-1c.3-.6.8-1 1-1 .2 0 .7.4 1 1zm-11.7 6.2c.2 1.1-.9 1.7-4 2.1-2.6.4-4.9 1.4-6 2.7-1.7 2.1-11.7 7-14.4 7-.9 0-1.8-.9-2.1-1.9-.3-1.2-1.5-2.1-3.2-2.3-4.5-.5-2.8-2.3 7.1-7 2.8-1.3 6.5-.9 7.2.7.3.8 1.2 1.5 2.1 1.5.9 0 1.8-.7 2.1-1.5.4-.8 1.8-1.5 3.3-1.5 1.4 0 3.3-.5 4.1-1 1.9-1.2 3.4-.8 3.8 1.2zm-50.9 5.4c-1.3 1.6-11.9 2-11.9.4 0-.6 1.5-.8 3.8-.4 2.5.4 4.3.1 5.7-.9 2.3-1.8 4.1-1.1 2.4.9zm40.1 10.9c0 6.1-1.5 7.7-6.3 6.8-4-.8-5.9 1.3-5.5 6.1.3 4 .2 4.1-3 4.4-3.4.3-9.2-3.1-7.2-4.3.5-.3 1-2.8 1-5.6 0-4.8.1-5 3.8-6.5 2-.9 6-2.7 8.7-4 7.8-3.6 8.5-3.4 8.5 3.1zm6.3-2.1c2.5 1.9 2.1 3.6-.8 3.6-2 0-2.5-.5-2.5-2.5 0-2.8.7-3 3.3-1.1zm74.9 6c2.1 1.6 1.3 2.6-1.9 2.6-1.6 0-2.3-.6-2.3-2 0-2.3 1.7-2.5 4.2-.6zm-18.2 3.5c1.3 2.5-.2 3.6-2.9 2.1-1.2-.6-1.8-1.6-1.5-2.5.8-2.1 3.1-1.9 4.4.4zm-50 .6c0 1.5-2.6 2-5.4.9-2.4-.9-.9-2.4 2.5-2.4 1.9 0 2.9.5 2.9 1.5zm-62 1c3.6.2 6.8.4 7.3.5.4 0 .7 1.2.7 2.6 0 2.5-.1 2.6-5.2 2-2.9-.4-8.2-1-11.7-1.4-3.7-.4-6.6-1.2-6.9-2-.5-1.6 3.6-3.2 6.8-2.7 1.4.3 5.4.7 9 1zm21 5.6c0 .5-.4.9-1 .9-.5 0-1-.7-1-1.6 0-.8.5-1.2 1-.9.6.3 1 1 1 1.6zm41.8-.9c1.4 1.4 1.6 3.8.3 3.8-1.5 0-4.2-3.1-3.6-4.1.8-1.2 1.9-1.1 3.3.3zm65.7 5.7c-.9 1.6-2.5.3-1.8-1.5.4-1 .9-1.2 1.5-.6s.7 1.5.3 2.1zm11.3-.7c1.6 1.6 1.5 3.8-.2 3.8-1.8 0-3.9-2.7-3.1-4 .8-1.3 1.8-1.3 3.3.2zm-72.8 1.9c0 .5-.7.9-1.5.9s-1.5-.7-1.5-1.5c0-.9.6-1.2 1.5-.9.8.4 1.5 1 1.5 1.5zm-51.2 4.2c.2 1.9-.1 2.7-1.2 2.7-1.1 0-1.6-1-1.6-3.1 0-3.8 2.4-3.5 2.8.4zm47-2c1.5 1.7 4.2 9.8 4.2 12.4 0 5.1-8 .8-9.4-5.1-.8-3.3 1-8.6 2.9-8.6.7 0 1.7.6 2.3 1.3zm88.4 1.4c2.1 1.9 2.4 5.3.5 5.3-2.1 0-5-3.7-4.4-5.5.8-1.9 1.6-1.9 3.9.2zm-161.9.5c.2.7-.3 2.1-1.1 3.1-1.4 1.6-1.4 2 0 4.5 2.2 3.8 3.2 18.6 1.3 20.2-.7.6-4.7 1.1-9 1.1-4.2 0-8.7.4-10.1.9-1.9.8-2.6.6-3.4-1-1.3-2.4-.4-4.7 2.2-5.5 1-.4 5.3-.5 9.5-.4 8.5.4 9.6-.4 6.8-4.7-1.3-2.1-1.4-2.8-.4-4.1 1.1-1.2.9-1.8-1.1-3.3-2-1.5-2.3-2.1-1.2-3.1.6-.7 1.2-2.7 1.2-4.4 0-1.8.3-3.5.7-3.8 1.1-1.2 4.1-.8 4.6.5zm15.7.3c0 .8-.4 1.5-1 1.5-.5 0-1-.7-1-1.5s.5-1.5 1-1.5c.6 0 1 .7 1 1.5zm5 8c0 2-1.7 2.8-4.6 2.1-3.3-.9-3.1-3.4.4-3.8 3.3-.5 4.2-.1 4.2 1.7zm13.8-.9c1.8.3 2.2 1.1 2.2 3.9 0 4.3 2.2 4.7 5.6.9 2.7-2.8 5-2.4 3.4.5-1.2 2.4-15.9 17.1-17 17.1-1 0-.2-11.6 1.2-15.2 1.2-3.3.4-4.8-2.7-4.8-2.5 0-4-1.4-3.1-2.8.5-.8 5.7-.6 10.4.4zm94.1 6.8c2.3 1.5.9 3.2-3.3 4.2-2.4.5-4.9.8-5.5.6-1.5-.5-1.4-5.9.2-6.5 1.3-.4 6.8.7 8.6 1.7zm-103.9.2c0 2.1-1.8 3.4-4.5 3.4-3.3 0-5.1-1.2-4.1-2.8.4-.6 8.6-1.2 8.6-.6zm-1 7.4c1.5 2.8.5 4-3.4 4-4 0-7.1-2.1-6.3-4.4 1-2.5 8.3-2.2 9.7.4zm-.8 8.6c1.8 1.1.7 4.4-1.6 5-4.9 1.2-8.7-1.4-7.2-5.1.5-1.4 1.3-1.6 4.4-1 2 .4 4 .9 4.4 1.1zm131.3-.6c1.1 1.7-.5 3.2-2.1 1.9-.8-.6-1.4-1.5-1.4-2 0-1.2 2.7-1.1 3.5.1zm-148.7 7.7c.2.7-.3 1.5-1.2 1.8-.9.3-2.3.7-3.2 1-1.3.4-1.4.8-.4 2 .7.8 2.1 1.5 3.1 1.5 1.4 0 1.9.7 1.9 2.6 0 2.5-.2 2.6-4.7 2.2-4-.2-4.8 0-5.1 1.5-.3 1.4.2 1.8 2 1.6 3.1-.3 8.4 1.9 7.2 3.1-.5.4-3 1.1-5.5 1.5-4.1.6-4.8.4-6.3-1.6-.9-1.3-1.6-3-1.6-3.9 0-.8-1.4-2.6-3-3.9-3.3-2.6-3.1-4.1.6-4.1 3 0 3.4-3.6.4-4.5-4.3-1.4-.5-2.6 7.3-2.3 5.3.2 8.2.7 8.5 1.5zm152.4 1.7c1.2 1.7.9 2.6-.8 3.3-2.4.9-6.4-1.4-6.4-3.8 0-1.8.4-2 3.3-1.4 1.7.4 3.5 1.3 3.9 1.9zm-92.1 3.3c-1 1.7-1 1.6-1.1-.3 0-2.3 1.3-4.1 1.8-2.5.2.6-.1 1.8-.7 2.8zm-42.2 2.1c1.6 3.1-.2 4.3-5.5 4-4.1-.3-4.9-.6-4.9-2.3 0-1.4.9-2.2 3-2.6 5.1-1.1 6.4-1 7.4.9zm140.9 3.5c.2 1.9-.1 2.7-1.2 2.7-1.8 0-3.5-2.9-2.9-4.8.9-2.3 3.8-.8 4.1 2.1zm-8.8.2c-.7.9-1.5 1.3-1.7 1.1-.7-.7.7-2.6 1.9-2.6.6 0 .6.6-.2 1.5zm-132 6.9c0 .6-1.4 1.9-3.1 2.8-3 1.7-3.1 1.7-5.5-.7-2.8-2.8-3-4.1-.8-5.3 2-1.1 9.4 1.5 9.4 3.2zm60.4 1.5c1.9 3.1-4 7.1-10.3 7.1-3.3 0-4.3-.5-6.2-3.1-1.8-2.6-1.9-3.3-.8-4 1.8-1.2 16.6-1.2 17.3 0zm20 14.7c1.2.5 1 1-1.2 2.9-3.2 2.8-5.5 1.6-2.7-1.5 2.1-2.3 1.8-2.2 3.9-1.4zM94 211.5c0 .8-.4 1.5-1 1.5-.5 0-1-.7-1-1.5s.5-1.5 1-1.5c.6 0 1 .7 1 1.5zm41-.5c1.2.7 1.2 1.2.2 2.2-1 1-1.5 1-2.2-.2-1.9-2.9-.9-3.9 2-2zm-19.5 3.1c1.3 1.4-3.1 5-5 4.2-.9-.3-1.5-1.8-1.5-3.5 0-2.8.2-3 2.8-2.3 1.5.3 3.2 1.1 3.7 1.6zm122.5.1c0 3.1-2.9 5.8-6.2 5.8-3.8 0-4.6-2.5-1.8-5.6 3.1-3.2 8-3.4 8-.2zm-109 .9c0 1.1-.4 1.7-1 1.4-.5-.3-1-1.3-1-2.1s.5-1.4 1-1.4c.6 0 1 .9 1 2.1zm-5.9 1.1c2.5 3.2 2.4 4.8-.6 4.8-1.8 0-2.6-.7-3.1-2.4-.6-2.3.1-4.6 1.2-4.6.3 0 1.4 1 2.5 2.2zm101.9 2.9c0 3.6-1.9 3.7-4.4.3-1.4-2-1.6-2.8-.6-3.4 2.4-1.5 5 .1 5 3.1zm-82.5 7.9c0 1.8-.5 3.5-1.2 3.7-1.4.5-2.8-4-1.9-6.3 1-2.7 3.1-.9 3.1 2.6zm11.2-.9c.2.8-.1 2-.6 2.8-.8 1.2-1.2 1.2-2.5.2-1.2-1-1.3-1.6-.3-3.2 1.3-2.1 3.1-2 3.4.2zm-27.3 1c3.4 2.7 3.2 6.3-.4 6.7-3.1.3-7.6-5.8-5.7-7.7 1.6-1.6 3.1-1.4 6.1 1zm10.4 3.1c-.2 1.3-1.1 2.4-2 2.6-2.1.4-2.4-1.8-.6-3.6 1.9-1.9 3-1.4 2.6 1zm47.3 1.6c.4.4 1 2.4 1.3 4.4l.7 3.7h-13.7c-7.6 0-14.6-.5-15.6-1-2.5-1.4-2.4-6.3.2-7.5 2.3-1 26.2-.7 27.1.4zm19 1.3c1.1 1.1 1.9 3 1.7 4.2-.2 1.8-1 2.2-4.1 2.2-2.5 0-4.3.6-5.1 1.7-1.9 2.6-2.6 2.2-2.6-1.2 0-1.9.6-3.3 1.6-3.7.8-.3 2-1.6 2.5-2.9 1.1-2.9 3.2-3.1 6-.3zm23.1-.2c.4.3.3 1.2-.1 2-.6 1-3.5 1.6-8.9 1.9-6.8.4-8 .2-8.6-1.3-1.3-3.6 1.2-4.7 9.3-4 4.2.4 7.9 1 8.3 1.4zm-78.9 4.9c1.5 1.5 2.7 3.1 2.7 3.5 0 1.2-4.5.7-6.6-.7-1.1-.8-3.3-1.6-4.9-1.8-3.9-.4-3.8-2.1 0-2.9 5.2-1.1 6.1-1 8.8 1.9zM211 245c0 .5-.5 1-1.1 1-.5 0-.7-.5-.4-1 .3-.6.8-1 1.1-1 .2 0 .4.4.4 1zm11 0c0 .5-.9 1-2 1s-2-.5-2-1c0-.6.9-1 2-1s2 .4 2 1zm-22 3.4c1.5.7 2.5 1.9 2.5 3.3 0 2.6 2 3.1 2 .5.1-4.5 3.5-5.2 3.5-.6 0 1.7.5 2.4 2 2.4 1.1 0 2 .4 2 1 0 .5 1.1 1 2.5 1 2 0 2.7-.6 3.2-3 .4-2.1 1.3-3.2 3-3.6 3.3-.9 4.3.5 1.6 2.3-1.3.9-2.3 2-2.3 2.5s-.8 1.8-1.8 2.9c-1.5 1.6-2.9 1.9-7.1 1.5-2.8-.2-5.7-.8-6.4-1.4-1.5-1.3-8.7-1-8.8.3 0 .5 1.3 1.3 2.9 1.6 1.5.3 4.2 1.5 5.8 2.7 2.7 1.9 3.4 1.9 8.5.9 3.1-.7 6.3-1.8 7.2-2.5 1.8-1.5 10.9-1.3 11.4.3.2.6-1.2 1.6-2.9 2.3-1.8.8-4.4 1.8-5.8 2.5-16 7.1-57.2 11-77 7.3-13.6-2.6-18.2-3.5-21.4-4.6-1.7-.6-6-1.9-9.5-3.1-7-2.2-13.6-5.3-14.5-6.8-.9-1.5 7.8-1.9 8.9-.4 1.3 1.6 8.4 2 11.2.5 1.3-.7 6.7-1.2 13.3-1.2 10.7 0 11.2.1 13.6 2.7 1.5 1.6 2.2 3.3 1.9 4.4-.7 2.1 1.7 3.7 5.5 3.8 1.4 0 6.6.3 11.6.6 10.3.7 12.4-.3 12.4-5.4 0-3.8 3.2-6.6 5.9-5.2 3.8 2.1 11.5.7 8.1-1.4-1.8-1.1-1.1-2.5 1.4-2.5 2.9 0 4.8-2.1 3.7-3.9-.7-1.1-1.6-1.1-4.3-.2-1.9.6-4.1 1-4.9.7-.8-.2-2.6-.7-4.1-1-6.9-1.5.1-3.7 8.7-2.8 2.2.2 5.1 1 6.5 1.6zm-21.1 1c.5 1.3 1.7 2.6 2.7 3 1.6.6 1.6.8.2 2.2-1.3 1.3-2.2 1.4-5.6.4-4.8-1.2-5.6-2.2-4.8-5.6.9-3.4 6.2-3.5 7.5 0zm50.6.7c1 1.5-.1 2.2-2.4 1.4-1.2-.3-1.9-1.1-1.6-1.6.8-1.2 3.2-1.1 4 .2zm-15.5.9c0 .5-.5 1-1.1 1-.5 0-.7-.5-.4-1 .3-.6.8-1 1.1-1 .2 0 .4.4.4 1zm24 2c0 .5-.5 1-1.1 1-.5 0-.7-.5-.4-1 .3-.6.8-1 1.1-1 .2 0 .4.4.4 1zm-6.3 2.2c-.3.8-.6.5-.6-.6-.1-1.1.2-1.7.5-1.3.3.3.4 1.2.1 1.9z"/>
+      <path d="M148 31.7c-4.2 1.5-5 6-2.4 13.7 1.1 3.3 2.4 5 4.1 5.7 3.1 1.2 2.9 1.2 4.7-.7 2.5-2.5 2.2-14.8-.4-17.4-2-2-3.3-2.3-6-1.3zm4.4 5.9c1.7 4.5-.4 10.6-2.5 7.3-1-1.6-1.2-7.3-.2-8.2 1.1-1.1 2-.8 2.7.9zM162.2 33.7c-1.3 2.5-2.3 15.1-1.3 15.7.5.3 1.6-.3 2.6-1.4 1-1.1 2.4-2 3.2-2 .7 0 1.3-.5 1.3-1 0-.6.6-1 1.4-1 .9 0 1.6 1.2 1.8 3.2.2 2.7.8 3.3 2.8 3.5 1.4 0 3.5.4 4.8.8 2 .7 2.2.4 2.2-2.7 0-1.9.6-4 1.2-4.6 1.9-1.9 1.9-11.2 0-12-1.9-.7-4.2 2.5-4.2 5.9 0 1.5-.5 4-1 5.5-1.5 3.9-3 1.9-3.7-5-.7-6.4-1.3-7.2-4.4-5.4-1.7 1-2.3 1-2.6 0-.7-1.8-3.1-1.5-4.1.5zM133.6 34.6c-1.9 1.8-2 5.3-.5 10.7 1.2 4.4 4.4 7.7 7.6 7.7 3.2 0 2.9-2.6-.4-4.2-3.2-1.5-4.6-6.2-3.7-12.1.6-4-.4-4.7-3-2.1zM198.1 38.7c.1 1.6-.4 4.6-1.1 6.8-.6 2.2-1.4 5.5-1.7 7.3-.5 2.9-.3 3.3 1.3 3 1.3-.2 2.2-1.6 2.8-4.3.4-2.2 1.7-6.1 2.8-8.6 2.3-5.2 1.8-6.9-1.7-6.9-2 0-2.4.5-2.4 2.7zM113.9 39.9c-2.3 1.9-2.3 2.1-.9 4.8.9 1.5 2.7 3.4 4.2 4 4.1 2 5.4 4.1 4 6.4-1.7 2.7-1.5 3.9.8 3.9 1.1 0 2.5-1.2 3.4-2.7 2-4-.4-8.9-5-9.7-3.8-.8-4.7-2.4-2.7-4.8 1.4-1.6 1.1-3.8-.6-3.8-.5 0-1.9.9-3.2 1.9zM209.3 43.2c-2.9 3.2-6.1 10-5.6 11.8 2.7 9.2 9.1 7.5 12.7-3.3 2.7-8.1 1.9-10.7-3.3-10.7-1 0-2.7 1-3.8 2.2zm4.7 4.3c0 3.3-2 7.5-3.7 7.5-1.5 0-1.7-3.8-.3-7.4 1.2-3.4 4-3.4 4-.1zM102.5 44.1c-.4.6.2 2 1.3 3.2 1.2 1.2 3.2 4.8 4.6 8 1.5 3.3 3.2 5.7 4.1 5.7 2.2 0 1.8-2.5-1-7-1.4-2.2-2.5-4.8-2.5-5.8 0-3.4-5-6.6-6.5-4.1zM94.5 52.7l.7 3.6-2.7-1.7C90.1 53 88 53.2 88 55c0 1.2 11.1 14 12.1 14 1.4 0 1.1-2.8-.7-5.4-2.1-3.3-.2-4.1 2.6-1.1 1.3 1.4 2.7 2.5 3.2 2.5 1.2 0 1-3.8-.2-4.5-.6-.4-2.8-3.1-5.1-6.1-4.7-6.4-6.4-7-5.4-1.7zM225.6 57.4c-4 5.6-4.5 6.8-3.6 9 1.1 3 5.3 4.4 7.5 2.6 2.6-2.1 9.5-13.2 8.9-14.2-1-1.6-2.2-.5-5.6 4.7-3.1 4.7-6.8 7.1-6.8 4.4 0-.6 1.6-3.4 3.5-6.1 3.3-4.5 3.8-6.8 1.5-6.8-.4 0-2.9 2.9-5.4 6.4zM79.6 59.6c-.9.8-1.6 2.2-1.6 3C78 65.1 88 75 90.6 75c3.6 0 5.4-1.1 5.4-3.2 0-2.9-3.8-7.8-6-7.8-2.9 0-3.6 2.2-1.2 3.8 1.2.8 2.2 1.8 2.2 2.3 0 1.7-2.1.9-4.5-1.9-2-2.2-2.4-3.4-1.9-6.5.5-3.2.3-3.7-1.4-3.7-1.1 0-2.8.7-3.6 1.6zM240.9 60.9c-1.9 1.5-2.4 2.9-2.4 6.8 0 4.8 0 4.8-3.2 4.7-3.4-.2-3.8.2-2.7 3 .9 2.3 6 2 8.4-.4 1.3-1.3 2-3.3 2-5.9 0-5.7.8-7.3 3-6.1 2.4 1.3 3.7-.5 2-2.5-1.7-2-4.3-1.9-7.1.4zM71 68.4c0 .8 2.3 3.1 5 5.2 5 3.8 6.4 6.4 3.5 6.4-.9 0-3.5-1.8-5.9-4-4.5-4.1-6.6-5-6.6-2.7C67 76.1 78.4 84 82.4 84c1.8 0 2.6-.7 3.1-2.7.5-2.3 0-3.3-3.7-6.8-7.2-6.9-10.8-8.9-10.8-6.1zM252.1 77.6c-3.4 2.5-6.1 5-6.1 5.5 0 1.2 2.7 1.2 3.5-.1.3-.6 1.9-1 3.4-1 2 0 3.4-.8 4.5-2.5 1.2-1.8 2.3-2.4 3.6-2 2.3.7 3.6-1.1 2-3-2-2.4-4.5-1.7-10.9 3.1zM59.7 79.8c-1 1-1.7 2.6-1.7 3.5 0 2.2 6 7.6 10.9 9.8 3.5 1.5 4.1 1.6 6 .3 2.7-2 2.7-4.6-.3-8.1-2.4-2.8-9.7-7.3-12-7.3-.7 0-2 .8-2.9 1.8zm9.8 5.3c3.4 3 4.6 5.9 2.5 5.9-3.5 0-10.7-6-9.5-7.9 1.1-1.9 3.3-1.2 7 2zM260.3 85.5c-6 4-7 5.2-5.4 6.8.6.6 1.1 1.9 1.1 2.9 0 2.6 1.9 2.2 3-.7.7-1.9 1.7-2.5 4-2.5 6.1 0 10.2-5.4 6.8-8.8-1.9-1.9-4-1.4-9.5 2.3zM53.7 90.6c-.3.4 0 1.6.8 2.8 2.2 3 1.8 3.9-1.1 3.2-2.1-.6-2.5-.4-2.2 1 .3 2 13.4 8.2 14.6 6.9.4-.4.1-1-.6-1.2-1.7-.6-4.2-3.2-4.2-4.4 0-1.2 3.7-1.2 4.5.1.8 1.2 4.5 1.3 4.5.1 0-.5-2.4-2.1-5.2-3.6-2.9-1.5-6-3.3-6.9-4.1-1.7-1.5-3.2-1.8-4.2-.8zM267 95.7c-6.4 3.7-8 5.3-8 7.9 0 6.3 9.9 5.5 17.3-1.4 3.2-3 3.4-5.2.9-7.5-2.6-2.3-5-2.1-10.2 1zm6.5 3.4c0 1.5-7.1 5.9-9.7 5.9-3.6 0-1.2-3.2 4.7-6.3 3.4-1.8 5-1.7 5 .4zM45 106.4c0 1 .8 1.6 2.2 1.6 1.1 0 4.6 1.2 7.6 2.6 3.3 1.6 5.8 2.2 6.4 1.6 1.2-1.2-.7-2.7-6.2-4.7-7.2-2.7-10-3-10-1.1zM275.5 109.5c-2.2.7-5.2 1.4-6.7 1.4-2.8.1-3.7 1.4-1.8 2.6.6.3.7 1.8.4 3.2-.5 1.9-.2 3 1.1 3.9 1.5 1.1 1.6 1.6.5 2.9-1 1.2-1 1.5.1 1.5 2.4 0 16.9-7.4 16.6-8.5-.2-.5-2.3-.9-4.6-.7-4.7.4-5.4-1.1-1.3-3 2.9-1.4 3.7-4.2 1.2-4.4-.8-.1-3.3.4-5.5 1.1zM39.4 120.4c-1.5 3.8 0 5.1 8.6 7.3 8.9 2.2 12.4 1.8 11.8-1.5-.2-1.2-1.1-1.6-3.2-1.4-1.8.3-3.6-.4-5.1-1.8-2-1.9-2.6-2-4.5-.8s-2.4 1-3.7-1c-1.8-2.5-3.1-2.8-3.9-.8zM272.6 131.9c-.2.3-.4 2.5-.4 4.8-.1 3.6.3 4.3 1.8 4.3 1 0 2.2-.5 2.5-1 .3-.6 1.7-1 2.9-1 3.6 0 9.6-2.8 9.6-4.5 0-.8-1-1.7-2.2-1.9-3.9-.8-13.9-1.3-14.2-.7zM39.6 133.8c-2.6.6-1.8 2.2 1.1 2.2 1.4 0 5.1.8 8 1.7 5.7 1.8 8.5 1.2 9.1-2 .3-1.3-1.1-1.6-8.1-1.9-4.7-.2-9.2-.2-10.1 0zM38.6 143.1c-5.6 4.4-2.6 6.6 9.1 6.4 8.8-.1 10.9-1 9.8-4.4-1-3.2-3.9-4.4-8.2-3.2-2.3.7-4.2.7-5.4.1-2.3-1.3-2.2-1.3-5.3 1.1zM271.7 144.7c-1.1 1-.8 4.3.3 4.3.6 0 2.2-.7 3.5-1.6 1.3-.8 3.4-1.5 4.7-1.4 5.3.5 9.9 0 9.3-1-.7-1.1-16.8-1.4-17.8-.3zM272.9 153.9c-1.5 1.2-2 2.4-1.6 3.5.6 1.6.9 1.6 3.3-.3 1.5-1.2 4.2-2.1 6.3-2.2 3.2 0 8.3-1.5 7.1-2-.3-.1-3.3-.3-6.7-.5-4.8-.2-6.8.1-8.4 1.5zM40.3 155.5c-4 1.7-4.3 4.3-.8 7.5 2.2 2.1 3 2.2 9.2 1.6 7.9-.8 9.5-1.9 9.1-6-.2-2.2-.9-3.2-2.8-3.7-4.2-1.2-11.3-.9-14.7.6zM52 158c2.1 1.3.3 2.7-4.6 3.5-4.4.7-6.1-.3-5-3 .6-1.7 7.2-2 9.6-.5zM52 167.7c-1.4.3-2.9.9-3.4 1.4-.6.5-2.7.9-4.9.9-4.2 0-4.9 2.2-.8 2.8l2.3.4-2.3 2.4c-2.7 2.9-1.9 4.2 1.6 2.6 1.4-.7 5.3-1.2 8.5-1.2 3.3 0 6-.4 6-1s-.8-1-1.8-1c-3.1 0-3.3-1.2-.6-3.7 3.9-3.6 2.3-4.8-4.6-3.6zM269.7 167.6c-.4.4-.7 2-.7 3.5 0 2.1.7 3.2 3 4.4 4 2.1 5.4 1.9 8.8-1 3.5-2.9 4.5-3.1 6.2-1 1.5 1.9 4 2 4 .2 0-2.1-3.4-4.7-6-4.7-1.2 0-3.8 1-5.7 2.1-3.6 2.2-4.8 1.9-5.5-1.6-.3-2-2.8-3.1-4.1-1.9zM131.5 171.4c-1.5 1.1-1.7 1.7-.8 2.7 1.7 1.7 6.5.3 6.1-1.9-.4-2.2-2.9-2.6-5.3-.8zM269 180.3c0 1.3 4.7 2.9 13.6 4.4 3.1.5 5.9-1.3 3.2-2.1-.7-.2-2.9-.8-4.8-1.4-7-2.1-12-2.5-12-.9zM266.7 185.6c-1.3 1.4-.7 6.1 1.1 7.6 5.6 4.9 14.5 6.3 17.7 2.8 1.7-1.9 1.7-2.1 0-4-1-1.1-2.5-2-3.3-2-.9 0-3.4-.9-5.6-1.9-5.1-2.5-8.9-3.4-9.9-2.5zm12.8 6.9 3 2.4-2.6.1c-3.3 0-9.9-2.7-9.9-4 0-2 6.5-1 9.5 1.5zM131 197c0 .5.5 1 1 1 .6 0 1-.5 1-1 0-.6-.4-1-1-1-.5 0-1 .4-1 1zM261.7 196.7c-1.5 1.5-.6 3.3 1.7 3.3 3.8 0 5.6 1 5.6 3.2 0 1.6.5 1.8 3.5 1.2 3.1-.5 3.6-.3 4.5 2 1.1 3 2.2 3.3 4 1.1 1.8-2.2.1-3.8-8.6-8-7.5-3.5-9.5-4.1-10.7-2.8zM71.5 201.8c-.6.4-1.6 1.9-2.4 3.4-.8 1.6-2 2.8-2.6 2.8-2.3 0-9.8 6.1-8.7 7.2 1 1 14-7.2 15.5-9.8 1-1.7-.5-4.6-1.8-3.6zM255.4 207.4c-.8 2.2 1.4 5.6 3.6 5.6 2.1 0 2.7-1.5 1-2.5-.5-.3-1-1.5-1-2.6 0-2.2-2.8-2.6-3.6-.5zM264.6 211.9c-.3.5.8 1.1 2.4 1.5 2.4.4 3.2 1.2 3.6 3.6.8 3.6 3.1 4 4 .6 1-4.1-1.1-6.6-5.6-6.6-2.1 0-4.1.4-4.4.9zM80 220.8c-1.9 1.6-2.1 2.3-1.5 6.6.7 4.2 1 4.7 2.9 4.2 1.1-.3 3.1-.6 4.2-.6 3.5 0 3.9-5.8.6-9.3-3-3.2-3.3-3.2-6.2-.9zM245.6 226.6c-1 1.4-1.6 3.9-1.4 5.7.3 3 .6 3.2 4.4 3.5 3.9.3 4.2.1 4.8-2.9.7-3.7-1.9-8.9-4.5-8.9-.9 0-2.4 1.1-3.3 2.6zM180 135c0 .5.7 1 1.5 1s1.5-.5 1.5-1c0-.6-.7-1-1.5-1s-1.5.4-1.5 1zM83.4 165.4c-.7 1.9.3 3.6 2.2 3.6 1 0 1.4-.8 1.2-2.2-.4-2.6-2.6-3.6-3.4-1.4z"/>
+    </g>
+</svg>
+</span>
+            <span class="app-brand-text demo menu-text fw-bold">GCET Jammu</span>
+        </a>
+                    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-xl-none">
+                <i class="ti ti-x ti-md align-middle"></i>
+            </a>
+            </div>
+
+<!-- ! Not required for layout-without-menu -->
+    <div
+        class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none  ">
+        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+            <i class="ti ti-menu-2 ti-md"></i>
+        </a>
+    </div>
+
+<div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+
+    
+    <ul class="navbar-nav flex-row align-items-center ms-auto">
+        
+
+        <!-- Language -->
+        <li class="nav-item dropdown-language dropdown">
+            <a class="nav-link btn btn-text-secondary btn-icon rounded-pill dropdown-toggle hide-arrow"
+                href="javascript:void(0);" data-bs-toggle="dropdown">
+                <i class='ti ti-language ti-spin-hover rounded-circle ti-md'></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                    <a class="dropdown-item active" href="#"
+                        data-language="en" data-text-direction="ltr">
+                        <span>English</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item "
+                        href="javascript:alert('This feature will be available shortly')" data-language="fr"
+                        data-text-direction="ltr">
+                        <span>Hindi</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <!--/ Language -->
+
+        <!-- Style Switcher -->
+        <li class="nav-item dropdown-style-switcher dropdown">
+            <a class="nav-link btn btn-text-secondary btn-icon rounded-pill dropdown-toggle hide-arrow"
+                href="javascript:void(0);" data-bs-toggle="dropdown">
+                <i class='ti ti-brightness-down ti-md ti-spin-hover'></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-styles">
+                <li>
+                    <a class="dropdown-item" href="javascript:void(0);" data-theme="light">
+                        <span class="align-middle"><i class='ti ti-sun ti-md me-3'></i>Light</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="javascript:void(0);" data-theme="dark">
+                        <span class="align-middle"><i class="ti ti-moon-stars ti-md me-3"></i>Dark</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="javascript:void(0);" data-theme="system">
+                        <span class="align-middle"><i
+                                class="ti ti-device-desktop-analytics ti-md me-3"></i>System</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <!-- / Style Switcher -->
+
+
+                    <!-- Quick links  -->
+            <li class="nav-item dropdown-shortcuts navbar-dropdown dropdown">
+                <a class="nav-link btn btn-text-secondary btn-icon rounded-pill btn-icon dropdown-toggle hide-arrow"
+                    href="javascript:void(0);" data-bs-toggle="dropdown" data-bs-auto-close="outside"
+                    aria-expanded="false">
+                    <i class='ti ti-layout-grid-add ti-md'></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end p-0">
+                    <div class="dropdown-menu-header border-bottom">
+                        <div class="dropdown-header d-flex align-items-center py-3">
+                            <h6 class="mb-0 me-auto">Shortcuts</h6>
+                        </div>
+                    </div>
+                    <div class="dropdown-shortcuts-list scrollable-container">
+                        <div class="row row-bordered overflow-visible g-0">
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-3">
+                                    <i class="ti ti-calendar ti-26px text-heading"></i>
+                                </span>
+                                <a href="/admit-card" class="stretched-link">Admit Cards</a>
+                            </div>
+                            
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-3">
+                                    <i class="ti ti-file-dollar ti-26px text-heading"></i>
+                                </span>
+                                <a href="/exam" class="stretched-link">Exam Forms</a>
+                                
+                            </div>
+                        </div>
+                        <div class="row row-bordered overflow-visible g-0">
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-3">
+                                    <i class="ti ti-user ti-26px text-heading"></i>
+                                </span>
+                                <a href="/result" class="stretched-link">Results</a>
+                                
+                            </div>
+                            <div class="dropdown-shortcuts-item col">
+                                <span class="dropdown-shortcuts-icon rounded-circle mb-3">
+                                    <i class="ti ti-users ti-26px text-heading"></i>
+                                </span>
+                                <a href="https://coe.gcetj.ac.in/mydetails" class="stretched-link">My Details</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Quick links -->
+        
+        <li class="nav-item dropdown-notifications navbar-dropdown dropdown me-3 me-xl-2">
+            <a class="nav-link btn btn-text-secondary btn-icon rounded-pill dropdown-toggle hide-arrow"
+                href="javascript:alert('This feature will be available shortly')">
+                <span class="position-relative">
+                    <i class="ti ti-bell ti-md"></i>
+                    <span class="badge rounded-pill ti-spin-hover bg-danger  border"></span>
+                </span>
+            </a>
+        </li>
+
+        
+        <!-- User -->
+        <li class="nav-item navbar-dropdown dropdown-user dropdown">
+            <a class="nav-link dropdown-toggle hide-arrow p-0" href="javascript:void(0);" data-bs-toggle="dropdown">
+                <div class="avatar avatar-online">
+                                            <img src="https://coe.gcetj.ac.in/storage/photos/UC4jXGDtSpF0YdwZt0Q0MV1v8pyJ09YFGBDKhck8.jpg" alt="User Avatar"
+                            class="rounded-circle">
+                                    </div>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                    <a class="dropdown-item mt-0" href="https://coe.gcetj.ac.in/mydetails">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0 me-2">
+                                <div class="avatar avatar-online">
+                                                                            <img src="https://coe.gcetj.ac.in/storage/photos/UC4jXGDtSpF0YdwZt0Q0MV1v8pyJ09YFGBDKhck8.jpg" alt="User Avatar"
+                                            class="rounded-circle">
+                                    
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h6 class="mb-0">
+                                    ANSIL BHAGAT
+                                </h6>
+                                <small class="text-muted">Student</small>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <div class="dropdown-divider my-1 mx-n2"></div>
+                </li>
+
+                                    <li>
+                        <a class="dropdown-item" href="https://coe.gcetj.ac.in/mydetails">
+                            <i class="ti ti-user me-3 ti-md"></i><span class="align-middle">My Details</span>
+                        </a>
+                    </li>
+                                <li>
+                    <a class="dropdown-item" href="https://coe.gcetj.ac.in/student/profile">
+                        <i class="ti ti-user me-3 ti-md"></i><span class="align-middle">Change Password</span>
+                    </a>
+                </li>
+
+                <li>
+                    <div class="dropdown-divider my-1 mx-n2"></div>
+                </li>
+                <li>
+                    <div class="d-grid px-2 pt-2 pb-1">
+                        <a class="btn btn-sm btn-danger d-flex" href="https://coe.gcetj.ac.in/logout"
+                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            <small class="align-middle">Logout</small>
+                            <i class="ti ti-logout ms-2 ti-14px"></i>
+                        </a>
+                    </div>
+                </li>
+                <form method="POST" id="logout-form" action="https://coe.gcetj.ac.in/logout">
+                    <input type="hidden" name="_token" value="yJYXYW9Ezclb4z35HSiakCb06Eqoe0zZUKmYl42M" autocomplete="off">                </form>
+            </ul>
+        </li>
+        <!--/ User -->
+    </ul>
+</div>
+
+<!-- Search Small Screens -->
+<div class="navbar-search-wrapper search-input-wrapper container-xxl d-none">
+    <input type="text"
+        class="form-control search-input  border-0"
+        placeholder="Search..." aria-label="Search...">
+    <i class="ti ti-x search-toggler cursor-pointer"></i>
+</div>
+<!--/ Search Small Screens -->
+    </div>
+</nav>
+<!-- / Navbar -->
+    <!-- END: Navbar-->
+
+    <!-- Layout page -->
+    <div class="layout-page">
+
+      <!-- Content wrapper -->
+      <div class="content-wrapper">
+
+        <!-- Horizontal Menu -->
+<aside id="layout-menu" class="layout-menu-horizontal menu-horizontal  menu bg-menu-theme flex-grow-0">
+  <div class="container-xxl d-flex h-100">
+    <ul class="menu-inner pb-2 pb-xl-0">
+      
+      
+      
+      
+      <li class="menu-item active">
+        <a href="home.html" class="menu-link" >
+                      <i class="menu-icon tf-icons ti ti-smart-home"></i>
+                    <div>Home</div>
+        </a>
+
+        
+              </li>
+      
+      
+      
+      
+      <li class="menu-item ">
+        <a href="/admission-form.html" class="menu-link" >
+                      <i class="menu-icon tf-icons ti ti-school"></i>
+                    <div>Admission Form</div>
+        </a>
+
+        
+              </li>
+      
+      
+      
+      
+      <li class="menu-item ">
+        <a href="/exam" class="menu-link" >
+                      <i class="menu-icon tf-icons ti ti-school"></i>
+                    <div>Exam Form</div>
+        </a>
+
+        
+              </li>
+      
+      
+      
+      
+      <li class="menu-item ">
+        <a href="/admit-card" class="menu-link" >
+                      <i class="menu-icon tf-icons ti ti-id-badge-2"></i>
+                    <div>Admit Card</div>
+        </a>
+
+        
+              </li>
+      
+      
+      
+      
+      <li class="menu-item ">
+        <a href="/result" class="menu-link" >
+                      <i class="menu-icon tf-icons ti ti-award"></i>
+                    <div>Results</div>
+        </a>
+
+        
+              </li>
+          </ul>
+  </div>
+</aside>
+<!--/ Horizontal Menu -->
+
+        <!-- Content -->
+        <div class="container-xxl flex-grow-1 container-p-y">
+          
+    <!-- Student chart  -->
+    <div class="card bg-transparent shadow-none my-6 border-0">
+        <div class="card-body row p-0 pb-6 g-6">
+            <div class="col-12 col-lg-8 card-separator">
+                <h5 class="mb-2">Welcome back,<span class="h4"> ANSIL BHAGAT 👋🏻</span></h5>
+                <div class="col-12 col-lg-5">
+                    <p>Great to see your progress! Keep striving for excellence and earn rewards along the way!</p>
+                </div>
+                <div class="d-flex justify-content-between flex-wrap gap-4 me-12">
+                    <div class="d-flex align-items-center gap-4 me-6 me-sm-0">
+                        <div class="avatar avatar-lg">
+                            <div class="avatar-initial bg-label-primary rounded">
+                                <div>
+                                    <img src="https://coe.gcetj.ac.in/assets/svg/icons/laptop.svg" alt="paypal" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <p class="mb-0 fw-medium">Your Branch</p>
+                            <h4 class="text-primary mb-0">CE</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <div class="avatar avatar-lg">
+                            <div class="avatar-initial bg-label-info rounded">
+                                <div>
+                                    <img src="https://coe.gcetj.ac.in/assets/svg/icons/lightbulb.svg" alt="Lightbulb"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                                                    <div class="content-right">
+                                <p class="mb-0 fw-medium">Your Semester</p>
+                                <h4 class="text-info mb-0">Batch 2025 2nd Semester</h4>
+                            </div>
+                                            </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <div class="avatar avatar-lg">
+                            <div class="avatar-initial bg-label-warning rounded">
+                                <div>
+                                    <img src="https://coe.gcetj.ac.in/assets/svg/icons/check.svg" alt="Check" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <p class="mb-0 fw-medium">Your Program </p>
+                            <h4 class="text-warning mb-0"> BTECH</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 ps-md-4 ps-lg-6">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div>
+                            <h5 class="mb-1">Total Marks</h5>
+                            <p class="mb-9">Overall</p>
+                        </div>
+                        <div class="time-spending-chart">
+                            <h4 class="mb-2">0 <span
+                                    class="text-body">/</span> 0<span
+                                    class="text-body"></span>
+                            </h4>
+                            <span class="badge bg-label-success">0%</span>
+                        </div>
+                    </div>
+                    <div id="leadsReportChart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Student Chart  -->
+
+    <!-- Topic and Instructors -->
+    <div class="row mb-6 g-6">
+
+        <!-- ExamForms -->
+        <div class="col-xxl-4 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    
+                    <div class="bg-label-secondary rounded text-center mb-4 pt-4">
+                        <img class="img-fluid" src="https://coe.gcetj.ac.in/assets/img/illustrations/girl-with-laptop.png"
+                            alt="Card girl image" width="140" />
+                    </div>
+                    <h5 class="mb-2">No Admission Forms Available</h5>
+                    <p class="small">Currently, there are no exams forms open for you.</p>
+
+                    <!-- Dates Section -->
+                    <div class="row mb-4 g-3">
+                                                    <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary">
+                                            <i
+                                                class="ti ti-calendar-event ti-28px"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">TBA</h6>
+                                        <small>Start Date</small>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary">
+                                            <i
+                                                class="ti ti-clock ti-28px"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">TBA</h6>
+                                        <small>End Date</small>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+
+                                            <a href="" class="btn btn-info disabled w-100">
+                            Not Available
+                        </a>
+                                    </div>
+            </div>
+        </div>
+        <!--/ ExamForms -->
+
+        <!-- Semester Wise Result -->
+        <div class="col-xxl-8">
+            <div class="card h-100">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5 class="card-title m-0 me-2">Your progress</h5>
+                    <div class="dropdown">
+                        <button class="btn btn-text-secondary rounded-pill text-muted border-0 p-2 me-n1" type="button"
+                            id="topic" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="ti ti-dots-vertical ti-md text-muted"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="topic">
+                            <a class="dropdown-item" href="javascript:void(0);">View All</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body row g-6">
+                    <div class="col-xxl-7 col-md-8">
+                        <div id="horizontalBarChart"></div>
+                    </div>
+                    <div class="col-1 d-none d-xxl-block"></div>
+
+                    <div class="col-md-4 d-flex justify-content-around align-items-center">
+                        <div>
+                                                            
+                                <div class="d-flex align-items-baseline ">
+                                    <span class="text-primary me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">1 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                            
+                                <div class="d-flex align-items-baseline my-4">
+                                    <span class="text-success me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">2 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                            
+                                <div class="d-flex align-items-baseline ">
+                                    <span class="text-danger me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">3 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                            
+                                <div class="d-flex align-items-baseline my-4">
+                                    <span class="text-info me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">4 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                    </div>
+
+                        <div>
+                                                            
+                                <div class="d-flex align-items-baseline ">
+                                    <span class="text-info me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">5 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                            
+                                <div class="d-flex align-items-baseline my-4">
+                                    <span class="text-secondary me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">6 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                            
+                                <div class="d-flex align-items-baseline ">
+                                    <span class="text-warning me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">7 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                            
+                                <div class="d-flex align-items-baseline my-4">
+                                    <span class="text-warning me-2">
+                                        <i class='ti ti-circle-filled ti-12px'></i>
+                                    </span>
+                                    <div>
+                                        <p class="mb-0">8 Semester</p>
+                                        <h5>
+                                                                                            NA
+                                                                                    </h5>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Course datatable -->
+    <div class="card">
+        <div class="table-responsive mb-4">
+            <table class="table table-sm datatables-academy-course">
+                <thead class="border-top">
+                    <tr>
+                        <th></th>
+                        <th>Course Name</th>
+                        <th>Course Code</th>
+                        <th>Semester</th>
+                        <th>Credits</th>
+                        <th>Internal Marks</th>
+                        <th>External Marks</th>
+                        <th>Total Marks</th>
+                        <th>Attendance</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <!-- Hidden element to pass session messages -->
+    <div id="sessionMessages" data-status="" data-error="">
+    </div>
+
+        </div>
+        <!-- / Content -->
+
+        <!-- Footer -->
+        <!-- Footer-->
+<footer class="content-footer footer bg-footer-theme">
+    <div class="container-xxl">
+        <div class="footer-container d-flex align-items-center justify-content-center py-4 flex-column text-center">
+            <div class="text-body">
+                <span>©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                </span>
+                Developed by
+                <a href="/me" class="footer-link fw-bold text-decoration-underline">
+                    Coordinator, IT Cell - Yawar Azad
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/ Footer-->
+        <!-- / Footer -->
+        <div class="content-backdrop fade"></div>
+      </div>
+      <!--/ Content wrapper -->
+    </div>
+    <!-- / Layout Container -->
+
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+    <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+    <div class="drag-target"></div>
+  </div>
+</div>
+<!-- / Layout wrapper -->
+    <!-- BEGIN: Vendor JS-->
+
+<link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/jquery-CbdDuLi-.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/popper-DNZnuk_L.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/bootstrap-DlO_aitb.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/bootstrap.esm-9NWAKEpF.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/node-waves-XDuO7R8f.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/perfect-scrollbar-CLUWhEAQ.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/hammer-DbFOON0O.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/typeahead-BKwBoP4T.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/menu-DAPneovL.js" /><script type="module" src="https://coe.gcetj.ac.in/build/assets/jquery-CbdDuLi-.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/popper-DNZnuk_L.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/bootstrap-DlO_aitb.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/node-waves-XDuO7R8f.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/perfect-scrollbar-CLUWhEAQ.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/hammer-DbFOON0O.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/typeahead-BKwBoP4T.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/menu-DAPneovL.js" data-navigate-track="reload"></script>
+    <link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/apexcharts-CP_VfLCH.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/_commonjsHelpers-BosuxZz1.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/datatables-bootstrap5-CSvy9NcK.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/_commonjs-dynamic-modules-TDtrdbi3.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/jquery-CED9k22g.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/jquery-Czc5UB_B.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/moment-B6sIOK86.js" /><link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/toastr-D9BmDGHY.js" /><script type="module" src="https://coe.gcetj.ac.in/build/assets/apexcharts-CP_VfLCH.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/datatables-bootstrap5-CSvy9NcK.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/moment-B6sIOK86.js" data-navigate-track="reload"></script><script type="module" src="https://coe.gcetj.ac.in/build/assets/toastr-D9BmDGHY.js" data-navigate-track="reload"></script><!-- END: Page Vendor JS-->
+<link rel="modulepreload" as="script" href="https://coe.gcetj.ac.in/build/assets/main-DHedL5CM.js" /><script type="module" src="https://coe.gcetj.ac.in/build/assets/main-DHedL5CM.js" data-navigate-track="reload"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let labelColor, headingColor, borderColor;
+            const isDark = isDarkStyle;
+
+            labelColor = isDark ? config.colors_dark.textMuted : config.colors.textMuted;
+            headingColor = isDark ? config.colors_dark.headingColor : config.colors.headingColor;
+            borderColor = isDark ? config.colors_dark.borderColor : config.colors.borderColor;
+
+            // Chart Colors
+            const chartColors = {
+                donut: ["#209F59", "#24B364", config.colors.success, "#53D28C", "#7EDDA9", "#A9E9C5"]
+            };
+
+            // Convert PHP academic data to JS object
+            const academicData = Object.values([]);
+            const finalPercentage = parseFloat("0");
+
+            // Extract available semester performances
+            const semesterPercentages = academicData
+                .map(semester => parseFloat(semester.performance) || 0)
+                .filter(percent => percent > 0);
+
+            // Labels for semesters (e.g., Semester 1, Semester 2, etc.)
+            const mySemesterLabels = academicData.map(semester => semester.name);
+
+            // Ensure donut chart updates correctly
+            const leadsReportChartEl = document.querySelector("#leadsReportChart");
+            if (leadsReportChartEl) {
+                new ApexCharts(leadsReportChartEl, {
+                    chart: {
+                        height: 170,
+                        width: 150,
+                        type: "donut",
+                        parentHeightOffset: 0
+                    },
+                    labels: mySemesterLabels.length > 0 ? mySemesterLabels : ["No Data"],
+                    series: semesterPercentages.length > 0 ? semesterPercentages : [
+                        100
+                    ], // Avoid empty chart
+                    colors: chartColors.donut,
+                    stroke: {
+                        width: 0
+                    },
+                    dataLabels: {
+                        enabled: false
+                    },
+                    legend: {
+                        show: false
+                    },
+                    tooltip: {
+                        enabled: true,
+                        y: {
+                            formatter: (val) => `${val}%`
+                        }
+                    },
+                    grid: {
+                        padding: {
+                            top: 0
+                        }
+                    },
+                    plotOptions: {
+                        pie: {
+                            donut: {
+                                size: "70%",
+                                labels: {
+                                    show: true,
+                                    value: {
+                                        fontSize: "1.125rem",
+                                        fontFamily: "Public Sans",
+                                        color: headingColor,
+                                        fontWeight: 500,
+                                        offsetY: -20,
+                                        formatter: (val) => `${parseInt(val)}%`
+                                    },
+                                    name: {
+                                        offsetY: 20,
+                                        fontFamily: "Public Sans"
+                                    },
+                                    total: {
+                                        show: true,
+                                        fontSize: ".9375rem",
+                                        label: "Total",
+                                        color: labelColor,
+                                        formatter: () =>
+                                            `${finalPercentage}%`
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }).render();
+            }
+
+            // Prepare chart data
+            const semesters = Array.from({
+                length: 8
+            }, (_, i) => i + 1);
+            const sortedSemesters = [...semesters].reverse(); // For correct ordering
+
+            // Process performance data
+            const performanceData = sortedSemesters.map(semesterNumber => {
+                const semester = academicData.find(s => parseInt(s.name.split(' ')[1]) === semesterNumber);
+                return semester ? parseFloat(semester.performance) || 0 : 0;
+            });
+
+            // Prepare labels
+            const semesterLabels = sortedSemesters.map(n => `${ordinal(n)} Semester`);
+
+            // Student Progress Bar Chart
+            const horizontalBarChartEl = document.querySelector("#horizontalBarChart");
+            if (horizontalBarChartEl) {
+                new ApexCharts(horizontalBarChartEl, {
+                    chart: {
+                        height: 300,
+                        type: "bar",
+                        toolbar: {
+                            show: false
+                        }
+                    },
+                    plotOptions: {
+                        bar: {
+                            horizontal: true,
+                            barHeight: "70%",
+                            distributed: true,
+                            borderRadius: 7
+                        }
+                    },
+                    grid: {
+                        strokeDashArray: 10,
+                        borderColor,
+                        xaxis: {
+                            lines: {
+                                show: true
+                            }
+                        },
+                        padding: {
+                            top: -35,
+                            bottom: -12
+                        }
+                    },
+                    colors: [config.colors.primary, config.colors.info, config.colors.success,
+                        config.colors.secondary, config.colors.danger, config.colors.warning
+                    ],
+                    dataLabels: {
+                        enabled: true,
+                        style: {
+                            colors: ["#fff"],
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            fontFamily: "Public Sans"
+                        },
+                        formatter: (val, opts) => semesterLabels[opts.dataPointIndex]
+                    },
+                    labels: semesterLabels,
+                    series: [{
+                        data: performanceData
+                    }],
+                    xaxis: {
+                        categories: sortedSemesters.map(n => n.toString()),
+                        labels: {
+                            style: {
+                                colors: labelColor,
+                                fontSize: "13px",
+                                fontFamily: "Public Sans"
+                            },
+                            formatter: (val) => `${val}%`
+                        },
+                        min: 0,
+                        max: 100
+                    },
+                    yaxis: {
+                        labels: {
+                            style: {
+                                colors: [labelColor],
+                                fontFamily: "Public Sans",
+                                fontSize: "13px"
+                            }
+                        }
+                    },
+                    tooltip: {
+                        enabled: true,
+                        y: {
+                            formatter: (val) => `${val}%`
+                        }
+                    },
+                    legend: {
+                        show: false
+                    }
+                }).render();
+            }
+
+            // Helper function for ordinal numbers
+            function ordinal(n) {
+                const s = ["th", "st", "nd", "rd"];
+                const v = n % 100;
+                return n + (s[(v - 20) % 10] || s[v] || s[0]);
+            }
+
+            // Radial Bar Chart
+            document.querySelectorAll(".chart-progress").forEach(chartProgressEl => {
+                new ApexCharts(chartProgressEl, {
+                    chart: {
+                        height: chartProgressEl.dataset.progress_variant === "true" ? 58 : 48,
+                        width: chartProgressEl.dataset.progress_variant === "true" ? 58 : 38,
+                        type: "radialBar"
+                    },
+                    plotOptions: {
+                        radialBar: {
+                            hollow: {
+                                size: chartProgressEl.dataset.progress_variant === "true" ? "50%" :
+                                    "25%"
+                            },
+                            dataLabels: {
+                                show: chartProgressEl.dataset.progress_variant === "true",
+                                value: {
+                                    offsetY: -10,
+                                    fontSize: "15px",
+                                    fontWeight: 500,
+                                    fontFamily: "Public Sans",
+                                    color: headingColor
+                                }
+                            },
+                            track: {
+                                background: config.colors_label.secondary
+                            }
+                        }
+                    },
+                    stroke: {
+                        lineCap: "round"
+                    },
+                    colors: [config.colors[chartProgressEl.dataset.color]],
+                    series: [chartProgressEl.dataset.series]
+                }).render();
+            });
+
+            // DataTable Initialization
+            const dt_academy_course = $(".datatables-academy-course");
+            if (dt_academy_course.length) {
+
+                const dt_course = dt_academy_course.DataTable({
+                    data: [{"student_course_id":38702,"student_id":1061,"semester":"Semester 2","code":"BMAT21","name":"Engineeering Mathematics-II","credits":3,"internal":"-\/- ","external":"-\/- ","total":"-\/100","attendance":"N\/A","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[]},{"student_course_id":38703,"student_id":1061,"semester":"Semester 2","code":"BPHT21","name":"Advanced Engineering Physics","credits":2,"internal":"-\/- ","external":"-\/- ","total":"-\/100","attendance":"21\/25 (84%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[]},{"student_course_id":38704,"student_id":1061,"semester":"Semester 2","code":"BCST21","name":"Fundamentals of programming using C","credits":3,"internal":"-\/- ","external":"-\/- ","total":"-\/100","attendance":"N\/A","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[]},{"student_course_id":38705,"student_id":1061,"semester":"Semester 2","code":"BMET21","name":"Engineering Drawing With CAD","credits":3,"internal":"-\/- ","external":"-\/- ","total":"-\/100","attendance":"N\/A","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"MSE","is_absent":0,"marks_obtained":10,"component_max_marks":20}]},{"student_course_id":38706,"student_id":1061,"semester":"Semester 2","code":"BMET22","name":"Basics of mechanical engineering","credits":3,"internal":"-\/- ","external":"-\/- ","total":"-\/100","attendance":"N\/A","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[]},{"student_course_id":38707,"student_id":1061,"semester":"Semester 2","code":"BHST21","name":"Universal Human Values \u0026 Professional Ethics","credits":3,"internal":"-\/- ","external":"-\/- ","total":"-\/100","attendance":"N\/A","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[]},{"student_course_id":38708,"student_id":1061,"semester":"Semester 2","code":"BPHL21","name":"Advanced Engineering Physics(Lab)","credits":1,"internal":"-\/- ","external":"N\/A","total":"-\/100","attendance":"N\/A","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[]},{"student_course_id":38709,"student_id":1061,"semester":"Semester 2","code":"BCSL21","name":"Python programming lab","credits":1,"internal":"-\/- ","external":"N\/A","total":"-\/100","attendance":"N\/A","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"PRS","is_absent":0,"marks_obtained":21,"component_max_marks":40},{"name":"PRE","is_absent":0,"marks_obtained":19,"component_max_marks":40}]},{"student_course_id":38710,"student_id":1061,"semester":"Semester 2","code":"BMEL21","name":"Workshop Manufacturing Practices","credits":1,"internal":"-\/- ","external":"N\/A","total":"-\/100","attendance":"18\/18 (100%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":null,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[]},{"student_course_id":29435,"student_id":1061,"semester":"Semester 1","code":"BMAT11","name":"Engineering Mathematics-I","credits":3,"internal":"30\/40","external":"-\/- ","total":"-\/100","attendance":"33\/38 (86.84%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"CWA","is_absent":0,"marks_obtained":10.3,"component_max_marks":12},{"name":"MSE","is_absent":0,"marks_obtained":14,"component_max_marks":20}]},{"student_course_id":29437,"student_id":1061,"semester":"Semester 1","code":"BCET11","name":"Energy and Environment","credits":3,"internal":"30\/40","external":"-\/- ","total":"-\/100","attendance":"37\/45 (82.22%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"CWA","is_absent":0,"marks_obtained":9,"component_max_marks":12},{"name":"MSE","is_absent":0,"marks_obtained":15.5,"component_max_marks":20}]},{"student_course_id":29438,"student_id":1061,"semester":"Semester 1","code":"BCHT11","name":"Applied Engineering Chemistry","credits":2,"internal":"29\/40","external":"-\/- ","total":"-\/100","attendance":"37\/41 (90.24%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"CWA","is_absent":0,"marks_obtained":9,"component_max_marks":12},{"name":"MSE","is_absent":0,"marks_obtained":12,"component_max_marks":20}]},{"student_course_id":29439,"student_id":1061,"semester":"Semester 1","code":"BCET12","name":"Structural Analysis-I","credits":3,"internal":"22\/40","external":"-\/- ","total":"-\/100","attendance":"42\/43 (97.67%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"CWA","is_absent":0,"marks_obtained":10.55,"component_max_marks":12},{"name":"MSE","is_absent":0,"marks_obtained":3.5,"component_max_marks":20}]},{"student_course_id":29440,"student_id":1061,"semester":"Semester 1","code":"BEET11","name":"Principles of Electrical Engineering","credits":3,"internal":"25\/40","external":"-\/- ","total":"-\/100","attendance":"35\/40 (87.5%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"CWA","is_absent":0,"marks_obtained":9.5,"component_max_marks":12},{"name":"MSE","is_absent":0,"marks_obtained":9,"component_max_marks":20}]},{"student_course_id":29441,"student_id":1061,"semester":"Semester 1","code":"BCHL11","name":"Applied Engineering Chemistry(Lab)","credits":1,"internal":"69\/100","external":"N\/A","total":"-\/100","attendance":"18\/20 (90%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"PRS","is_absent":0,"marks_obtained":29.73,"component_max_marks":40},{"name":"PRE","is_absent":0,"marks_obtained":19,"component_max_marks":40}]},{"student_course_id":29442,"student_id":1061,"semester":"Semester 1","code":"BCEL11","name":"Structural Analysis-I Lab.","credits":1,"internal":"70\/100","external":"N\/A","total":"-\/100","attendance":"12\/14 (85.71%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"PRS","is_absent":0,"marks_obtained":30,"component_max_marks":40},{"name":"PRE","is_absent":0,"marks_obtained":24,"component_max_marks":40}]},{"student_course_id":29443,"student_id":1061,"semester":"Semester 1","code":"BEEL11","name":"Principles of Electrical Engineering Lab.","credits":1,"internal":"68\/100","external":"N\/A","total":"-\/100","attendance":"18\/18 (100%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"PRS","is_absent":0,"marks_obtained":24,"component_max_marks":40},{"name":"PRE","is_absent":0,"marks_obtained":24,"component_max_marks":40}]},{"student_course_id":32867,"student_id":1061,"semester":"Semester 1","code":"BHST12","name":"Communication Skill and Personality Development","credits":1,"internal":"29\/40","external":"-\/- ","total":"-\/100","attendance":"17\/20 (85%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"CWA","is_absent":0,"marks_obtained":7,"component_max_marks":12},{"name":"MSE","is_absent":0,"marks_obtained":15.5,"component_max_marks":20}]},{"student_course_id":32922,"student_id":1061,"semester":"Semester 1","code":"BHSL12","name":"Communication Skill and Personality Development (Lab)","credits":1,"internal":"78\/100","external":"N\/A","total":"-\/100","attendance":"18\/20 (90%)","grade":"Pending","result_status":null,"is_reappear":0,"internal_absent":0,"external_absent":null,"internal_status":null,"external_status":null,"component_marks":[{"name":"PRE","is_absent":0,"marks_obtained":34.3,"component_max_marks":40},{"name":"PRS","is_absent":0,"marks_obtained":24,"component_max_marks":40}]}],
+                    order: [],
+                    ordering: false,
+                    // searching: false,
+                    columns: [{
+                            data: null,
+                            defaultContent: '',
+                            className: 'control',
+                            orderable: false,
+                            searchable: false,
+                            responsivePriority: 1
+                        },
+                        {
+                            data: "name",
+                            responsivePriority: 2
+                        },
+                        {
+                            data: "code",
+                            responsivePriority: 4
+                        },
+                        {
+                            data: "semester",
+                            responsivePriority: 5
+                        },
+                        {
+                            data: "credits"
+                        },
+                        {
+                            data: "internal"
+                        },
+                        {
+                            data: "external"
+                        },
+                        {
+                            data: "total"
+                        },
+                        {
+                            data: "attendance"
+                        },
+                    ],
+                    columnDefs: [{
+                            targets: 1,
+                            render: (data, type, full) => {
+                                let statusClass = full.is_reappear ? "text-danger" : "text-success";
+                                let statusText = full.is_reappear ? "Reappear" : "Regular";
+
+                                return `<div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="text-heading text-truncate fw-medium mb-2 text-wrap">
+                                            ${full.name}
+                                        </span>
+                                        <div class="d-flex align-items-center mt-1">
+                                            <small class="text-nowrap ${statusClass}">
+                                                ${statusText}
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>`;
+                            }
+                        },
+                        {
+                            targets: 2,
+                            render: (data, type, full) =>
+                                `<span class="fw-medium text-nowrap text-heading">${full.code}</span>`
+                        },
+                        {
+                            targets: 3,
+                            render: (data, type, full) =>
+                                `<span class="fw-medium text-nowrap text-heading">${full.semester}</span>`
+                        },
+                        {
+                            targets: 4,
+                            render: (data, type, full) =>
+                                `<span class="fw-medium text-nowrap text-heading">${full.credits}</span>`
+                        },
+                        {
+                            targets: 5, // Internal Marks Column
+                            render: (data, type, full) => {
+                                // --- 1. Calculate Main Internal Mark & Status (as before) ---
+                                let internalDisplay = full.internal_absent ?
+                                    "<span class='text-danger fw-medium'>Ab</span>" :
+                                    (full.internal ?? '-/-');
+
+                                let internalStatusText = '';
+                                if (full.internal !== 'N/A' && !full.internal_absent && full
+                                    .internal_status) {
+                                    let statusClass = full.internal_status === "Pass" ?
+                                        "text-success" : "text-danger";
+                                    internalStatusText =
+                                        `<small class="d-block ${statusClass}">${full.internal_status}</small>`;
+                                }
+
+                                // --- 2. Calculate Component Marks Breakdown ---
+                                let componentHtml = '';
+                                let hasComponents = false;
+                                if (full.component_marks && Array.isArray(full.component_marks) &&
+                                    full.component_marks.length > 0) {
+                                    hasComponents = true;
+                                    // Removed 'text-muted' class from ul for better visibility
+                                    componentHtml =
+                                        '<ul class="list-unstyled mt-1 mb-0 small">'; // Start list
+
+                                    componentHtml += full.component_marks.map(component => {
+                                        let markDisplay = '';
+                                        if (component.is_absent) {
+                                            markDisplay =
+                                                `<span class='text-danger fst-italic'>Absent</span>`;
+                                        } else {
+                                            let obtained = component.marks_obtained ?? '-';
+                                            let max = component.component_max_marks ?? '-';
+                                            if (obtained !== '-' && max !== '-') {
+                                                markDisplay = `${obtained}/${max}`;
+                                            } else {
+                                                markDisplay = obtained;
+                                            }
+                                        }
+                                        // Keep name slightly less prominent than the mark for better focus
+                                        return `<li class="d-flex justify-content-between">
+                                            <span class="me-2 text-body">${component.name ?? 'Unnamed'}:</span>
+                                            <span class="fw-medium text-heading">${markDisplay}</span>
+                                         </li>`;
+                                    }).join('');
+
+                                    componentHtml += '</ul>'; // End list
+                                }
+
+                                // --- 3. Conditional Rendering Logic (as before) ---
+                                if (full.internal === '-/-' && hasComponents) {
+                                    return `<div class="d-flex flex-column">
+                                        ${componentHtml}
+                                    </div>`;
+                                } else {
+                                    return `<div class="d-flex flex-column">
+                                        <div>
+                                            <span class="fw-medium text-nowrap text-heading">${internalDisplay}</span>
+                                            ${internalStatusText}
+                                        </div>
+                                        ${componentHtml}
+                                    </div>`;
+                                }
+                            }
+                        },
+                        {
+                            targets: 6, // External Marks Column
+                            render: (data, type, full) => {
+                                let externalDisplay = full.external_absent ? "Ab" : full.external;
+                                let statusClass = full.external_status === "Pass" ? "text-success" :
+                                    "text-danger";
+
+                                let statusText = (externalDisplay === "Ab" || externalDisplay ===
+                                        "N/A" || full.external_status === null) ?
+                                    "" :
+                                    `<small class="${statusClass}">${full.external_status}</small>`;
+
+                                return `<div class="d-flex flex-column">
+                                    <span class="fw-medium text-nowrap text-heading">${externalDisplay}</span>
+                                    ${statusText}
+                                </div>`;
+                            }
+                        },
+                        {
+                            targets: 7, // Total & Result Status Column
+                            render: (data, type, full) => {
+                                let statusText = full.result_status ? full.result_status : "";
+                                let statusClass = full.result_status === "Pass" ? "text-success" :
+                                    full.result_status === "Fail" ? "text-danger" : "";
+
+                                return `<div class="d-flex flex-column">
+                                    <span class="fw-bold text-nowrap text-heading">${full.total}</span>
+                                    ${statusText ? `<small class="${statusClass}">${statusText}</small>` : ""}
+                                </div>`;
+                            }
+                        },
+
+                        {
+                            targets: 8,
+                            render: (data, type, full) =>
+                                `<span class="fw-medium text-nowrap text-heading">${full.attendance}</span>`
+                        }
+                    ],
+                    order: [
+                        [1, "desc"]
+                    ],
+                    lengthMenu: [10],
+                    language: {
+                        emptyTable: "No courses found. Please check back later.",
+                        sLengthMenu: "_MENU_",
+                        search: "",
+                        searchPlaceholder: "Search Course",
+                        paginate: {
+                            next: '<i class="ti ti-chevron-right ti-sm"></i>',
+                            previous: '<i class="ti ti-chevron-left ti-sm"></i>',
+                        },
+                    },
+                    // select: {
+                    //     style: 'single', // Allows only one row to be selected at a time
+                    //     info: false // Uncomment if you don't want the "1 row selected" message
+                    // },
+
+                    // For responsive popup
+                    responsive: {
+                        details: {
+                            display: $.fn.dataTable.Responsive.display.modal({
+                                header: function(row) {
+                                    var data = row.data();
+                                    return "Details of " + data["name"];
+                                },
+                            }),
+                            type: 'column',
+                            target: 0,
+                            renderer: function(api, rowIdx, columns) {
+                                var data = $.map(columns, function(col, i) {
+                                    if (col.columnIndex === 0) {
+                                        return "";
+                                    }
+
+                                    return col.title !==
+                                        "" ?
+                                        '<tr data-dt-row="' +
+                                        col.rowIndex +
+                                        '" data-dt-column="' +
+                                        col.columnIndex +
+                                        '">' +
+                                        "<td>" +
+                                        col.title +
+                                        ":" +
+                                        "</td> " +
+                                        "<td>" +
+                                        col.data +
+                                        "</td>" +
+                                        "</tr>" :
+                                        "";
+                                }).join("");
+
+                                return data ?
+                                    $('<table class="table"/><tbody />').append(data) :
+                                    false;
+                            },
+                        },
+                    },
+                    dom: '<"card-header py-sm-0"<"head-label text-center">f<"filter_semester">' +
+                        ">t" +
+                        '<"row mx-md-4 flex-column flex-md-row align-items-center"' +
+                        '<"col-sm-6 col-12 text-center text-md-start pb-2 pb-xl-0 px-0"i>' +
+                        '<"col-sm-6 col-12 d-flex justify-content-center justify-content-md-end px-0"p>' +
+                        ">",
+                    initComplete: function() {
+                        // Adding role filter once table initialized
+                        this.api()
+                            .columns(3)
+                            .every(function() {
+                                var column = this;
+                                var select = $(
+                                        '<select id="UserRole" class="form-select"><option value=""> Select Semester </option></select>'
+                                    )
+                                    .appendTo('.filter_semester')
+                                    .on('change', function() {
+                                        var val = $.fn.dataTable.util.escapeRegex($(this)
+                                            .val());
+                                        column.search(val ? '^' + val + '$' : '', true, false)
+                                            .draw();
+                                    });
+
+                                column
+                                    .data()
+                                    .unique()
+                                    .sort()
+                                    .each(function(d, j) {
+                                        select.append('<option value="' + d +
+                                            '" class="text-capitalize">' + d + '</option>');
+                                    });
+                            });
+                    }
+                });
+
+            }
+            dt_academy_course.on('click', 'tbody tr', function(e) {
+                // Check if the click originated from the control cell itself or its children
+                // The 'control' class is on the <td> for the responsive button
+                if ($(e.target).closest('td.control').length) {
+                    return; // Let the default responsive handler take over
+                }
+
+                // Find the control cell in the clicked row
+                const controlCell = $(this).find('td.control');
+                if (controlCell.length) {
+                    // Trigger a click on the control cell to open/close the modal
+                    controlCell.trigger('click');
+                }
+            });
+
+            $("div.head-label").html(
+                `<h5 class="card-title mb-0 text-nowrap">Course you are taking</h5>`,
+            );
+
+            // Session Messages (Toastr)
+            const sessionElement = document.getElementById("sessionMessages");
+            if (sessionElement?.dataset.status) toastr.success(sessionElement.dataset.status, "Success");
+            if (sessionElement?.dataset.error) toastr.error(sessionElement.dataset.error, "Error");
+        });
+    </script>
+<!-- END: Page JS-->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"46f8b1f778fc4340b65a81c1410a2e28","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a023961d0e065cec',t:'MTc3OTg2OTg3OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
